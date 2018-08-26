@@ -1,7 +1,9 @@
+// GUILHERME DE OLIVEIRA E ALBUQUERQUE
 #include <stdio.h>
 
 int main(void){
     unsigned long long last , a1, b1, x1, n1, c1, d1, m1, cont1= 0, cont2 = 0;
+   
     unsigned int qinput, ini = 0;
 
     scanf("%d", &qinput);
@@ -10,7 +12,9 @@ int main(void){
        
        
         scanf("%llu %llu %llu %llu %llu %llu %llu", &a1, &b1, &x1, &n1, &c1, &d1, &m1);
+    
        cont2 = 0;
+    
         while(cont2 <= n1){
 
 
